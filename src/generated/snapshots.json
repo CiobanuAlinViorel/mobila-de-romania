@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "sceneHeight": 1.9809999999999999,
+  "images": {
+    "scaun-modern-alb": {
+      "catalog": {
+        "path": "snapshots/scaun-modern-alb-960.416fbb1ab9.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/scaun-modern-alb-960.416fbb1ab9.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/scaun-modern-alb-480.d0452908cd.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/scaun-modern-alb-detail-1600.da09ab9fb5.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/scaun-modern-alb-detail-1600.da09ab9fb5.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/scaun-modern-alb-detail-800.be4d069202.webp",
+            "width": 800
+          }
+        ]
+      }
+    },
+    "scaun-modern-negru": {
+      "catalog": {
+        "path": "snapshots/scaun-modern-negru-960.f627e074ed.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/scaun-modern-negru-960.f627e074ed.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/scaun-modern-negru-480.57d21c1e0a.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/scaun-modern-negru-detail-1600.819d85d4f1.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/scaun-modern-negru-detail-1600.819d85d4f1.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/scaun-modern-negru-detail-800.5301ca627a.webp",
+            "width": 800
+          }
+        ]
+      }
+    },
+    "scaun-fara-spatar": {
+      "catalog": {
+        "path": "snapshots/scaun-fara-spatar-960.1f158b02f8.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/scaun-fara-spatar-960.1f158b02f8.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/scaun-fara-spatar-480.a1d6dd1754.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/scaun-fara-spatar-detail-1600.0fb8fc8b5b.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/scaun-fara-spatar-detail-1600.0fb8fc8b5b.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/scaun-fara-spatar-detail-800.cb496d53ab.webp",
+            "width": 800
+          }
+        ]
+      }
+    },
+    "scaun-sezlong": {
+      "catalog": {
+        "path": "snapshots/scaun-sezlong-960.17c0cc7650.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/scaun-sezlong-960.17c0cc7650.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/scaun-sezlong-480.610197a133.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/scaun-sezlong-detail-1600.7183e38395.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/scaun-sezlong-detail-1600.7183e38395.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/scaun-sezlong-detail-800.5e48099523.webp",
+            "width": 800
+          }
+        ]
+      }
+    },
+    "masuta-3-picioare": {
+      "catalog": {
+        "path": "snapshots/masuta-3-picioare-960.1c4cefd77b.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/masuta-3-picioare-960.1c4cefd77b.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/masuta-3-picioare-480.a3118b8760.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/masuta-3-picioare-detail-1600.0758c51766.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/masuta-3-picioare-detail-1600.0758c51766.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/masuta-3-picioare-detail-800.bd5cb7b5f7.webp",
+            "width": 800
+          }
+        ]
+      }
+    },
+    "birou-calculator": {
+      "catalog": {
+        "path": "snapshots/birou-calculator-960.e036fb3b47.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/birou-calculator-960.e036fb3b47.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/birou-calculator-480.27df360450.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/birou-calculator-detail-1600.18d6167c09.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/birou-calculator-detail-1600.18d6167c09.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/birou-calculator-detail-800.6c6ebfe158.webp",
+            "width": 800
+          }
+        ]
+      }
+    },
+    "mini-canapea": {
+      "catalog": {
+        "path": "snapshots/mini-canapea-960.7da83e900f.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/mini-canapea-960.7da83e900f.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/mini-canapea-480.c8b1f5a258.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/mini-canapea-detail-1600.9b83d4aee4.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/mini-canapea-detail-1600.9b83d4aee4.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/mini-canapea-detail-800.105f023002.webp",
+            "width": 800
+          }
+        ]
+      }
+    },
+    "biblioteca": {
+      "catalog": {
+        "path": "snapshots/biblioteca-960.1c0b5fab18.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/biblioteca-960.1c0b5fab18.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/biblioteca-480.ad114e61b9.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/biblioteca-detail-1600.b812045d14.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/biblioteca-detail-1600.b812045d14.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/biblioteca-detail-800.32f515374c.webp",
+            "width": 800
+          }
+        ]
+      }
+    },
+    "dulap": {
+      "catalog": {
+        "path": "snapshots/dulap-960.c22f3b1194.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/dulap-960.c22f3b1194.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/dulap-480.dc715adb88.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/dulap-detail-1600.3e8ec226e8.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/dulap-detail-1600.3e8ec226e8.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/dulap-detail-800.44ef7757e3.webp",
+            "width": 800
+          }
+        ]
+      }
+    },
+    "mini-biblioteca": {
+      "catalog": {
+        "path": "snapshots/mini-biblioteca-960.4645cb81b4.webp",
+        "width": 960,
+        "height": 960,
+        "srcset": [
+          {
+            "path": "snapshots/mini-biblioteca-960.4645cb81b4.webp",
+            "width": 960
+          },
+          {
+            "path": "snapshots/mini-biblioteca-480.f00ee01f67.webp",
+            "width": 480
+          }
+        ]
+      },
+      "detail": {
+        "path": "snapshots/mini-biblioteca-detail-1600.5f1df73da9.webp",
+        "width": 1600,
+        "height": 1200,
+        "srcset": [
+          {
+            "path": "snapshots/mini-biblioteca-detail-1600.5f1df73da9.webp",
+            "width": 1600
+          },
+          {
+            "path": "snapshots/mini-biblioteca-detail-800.faf069b589.webp",
+            "width": 800
+          }
+        ]
+      }
+    }
+  }
+}

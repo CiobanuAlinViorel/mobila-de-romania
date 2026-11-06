@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+*.local
+*.log
+.env
+.env.*
+!.env.example
+
+# Scratch output of the asset scripts
+.cache
+
+# Local Vercel project link (vercel link / vercel pull)
+.vercel
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store

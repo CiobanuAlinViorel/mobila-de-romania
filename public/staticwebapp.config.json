@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/models/*", "/snapshots/*", "/config.js", "/favicon.svg"]
+  },
+  "routes": [
+    {
+      "route": "/assets/*",
+      "headers": { "Cache-Control": "public, max-age=31536000, immutable" }
+    },
+    {
+      "route": "/models/*",
+      "headers": { "Cache-Control": "public, max-age=31536000, immutable", "Access-Control-Allow-Origin": "*" }
+    },
+    {
+      "route": "/snapshots/*",
+      "headers": { "Cache-Control": "public, max-age=31536000, immutable", "Access-Control-Allow-Origin": "*" }
+    },
+    {
+      "route": "/config.js",
+      "headers": { "Cache-Control": "no-cache" }
+    },
+    {
+      "route": "/index.html",
+      "headers": { "Cache-Control": "no-cache" }
+    }
+  ],
+  "mimeTypes": {
+    ".glb": "model/gltf-binary",
+    ".webp": "image/webp"
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "currency": "lei",
+  "categories": [
+    { "id": "scaune", "label": "Scaune" },
+    { "id": "mese", "label": "Mese" },
+    { "id": "birouri", "label": "Birouri" },
+    { "id": "canapele", "label": "Canapele" },
+    { "id": "depozitare", "label": "Depozitare" }
+  ],
+  "finishes": {
+    "wood": {
+      "stejar": { "label": "Stejar natur", "dark": "#8a6742", "light": "#d9ba90" },
+      "nuc": { "label": "Nuc", "dark": "#3a271b", "light": "#8a6242" },
+      "wenge": { "label": "Wenge", "dark": "#1d1511", "light": "#5a463a" },
+      "alb": { "label": "Alb", "dark": "#dad4ca", "light": "#f5f2ec" }
+    },
+    "metal": {
+      "negru": { "label": "Negru mat", "color": "#232323", "metalness": 0.4, "roughness": 0.5 },
+      "crom": { "label": "Crom", "color": "#c9cbce", "metalness": 1, "roughness": 0.1 },
+      "auriu": { "label": "Auriu periat", "color": "#d9b46a", "metalness": 1, "roughness": 0.32 },
+      "alb": { "label": "Alb mat", "color": "#ecebe7", "metalness": 0, "roughness": 0.55 }
+    }
+  },
+  "products": [
+    {
+      "slug": "scaun-modern-alb",
+      "name": "Scaun Arad",
+      "category": "scaune",
+      "price": 299,
+      "summary": "Scaun cu șezut ergonomic din polipropilenă și picioare din lemn de fag.",
+      "description": "Un clasic al designului modern: șezutul turnat dintr-o singură bucată urmărește forma corpului, iar picioarele din fag, prinse cu tije metalice în X, îl fac stabil și ușor de mutat. Arată la fel de bine la masa din bucătărie, în birou sau în dormitor.",
+      "materials": ["Polipropilenă", "Lemn masiv de fag", "Oțel"],
+      "model": { "source": "scaun-modern-alb.glb", "unitScale": 0.01 },
+      "parts": [
+        {
+          "id": "sezut",
+          "label": "Culoare șezut",
+          "type": "color",
+          "select": { "texel": { "sat": [0, 0.15], "lum": [0.4, 1] } },
+          "detail": 0.6,
+          "options": [
+            { "id": "original", "label": "Alb" },
+            { "id": "negru", "label": "Negru", "color": "#2a2a2a" },
+            { "id": "gri", "label": "Gri", "color": "#8e9092" },
+            { "id": "salvie", "label": "Verde salvie", "color": "#9aa78e" },
+            { "id": "teracota", "label": "Teracotă", "color": "#bd6a4d" },
+            { "id": "mustar", "label": "Galben muștar", "color": "#d6a335" },
+            { "id": "albastru", "label": "Albastru pastel", "color": "#9db4cb" }
+          ]
+        },
+        {
+          "id": "picioare",
+          "label": "Lemn picioare",
+          "type": "wood",
+          "select": { "texel": { "sat": [0.2, 1] } },
+          "original": "Fag natur",
+          "options": ["original", "nuc", "wenge"]
+        }
+      ]
+    },
+    {
+      "slug": "scaun-modern-negru",
+      "name": "Scaun Craiova",
+      "category": "scaune",
+      "price": 549,
+      "summary": "Scaun tapițat cu piele ecologică, cu cadru metalic tip sanie.",
+      "description": "Șezutul generos, tapițat cu piele ecologică cusută vizibil, și cadrul metalic tip sanie dau acestui scaun un aer industrial-modern. Se potrivește lângă o masă din lemn masiv și rezistă bine la folosirea de zi cu zi.",
+      "materials": ["Piele ecologică", "Spumă poliuretanică", "Oțel vopsit"],
+      "model": { "source": "scaun-modern-negru.glb", "unitScale": 0.01 },
+      "parts": [
+        {
+          "id": "tapiterie",
+          "label": "Tapițerie",
+          "type": "color",
+          "select": { "texel": { "metal": [0, 0.5] }, "y": [0.1, 10] },
+          "detail": 0.8,
+          "options": [
+            { "id": "original", "label": "Negru" },
+            { "id": "coniac", "label": "Coniac", "color": "#8f5630" },
+            { "id": "ciocolatiu", "label": "Maro ciocolatiu", "color": "#4a3124" },
+            { "id": "gri", "label": "Gri", "color": "#7c7a77" },
+            { "id": "bleumarin", "label": "Bleumarin", "color": "#283a57" },
+            { "id": "verde", "label": "Verde închis", "color": "#2f4a3a" }
+          ]
+        },
+        {
+          "id": "cadru",
+          "label": "Cadru",
+          "type": "metal",
+          "select": { "texel": { "metal": [0.5, 1] } },
+          "original": "Negru mat",
+          "options": ["original", "crom", "auriu"]
+        }
+      ]
+    },
+    {
+      "slug": "scaun-fara-spatar",
+      "name": "Taburet de bar Oradea",
+      "category": "scaune",
+      "price": 449,
+      "summary": "Taburet înalt cu șezut tapițat, picioare din fag și suport metalic pentru picioare.",
+      "description": "Taburet pentru insula din bucătărie sau pentru barul din living. Perna groasă, tapițată cu o țesătură rezistentă, rămâne confortabilă și la mesele lungi, iar suportul metalic îți oferă sprijin pentru picioare. Picioarele sunt din lemn masiv de fag.",
+      "materials": ["Țesătură de tapițerie", "Lemn masiv de fag", "Oțel vopsit"],
+      "model": { "source": "scaun-fara-spatar.glb", "unitScale": 0.01 },
+      "parts": [
+        {
+          "id": "perna",
+          "label": "Tapițerie",
+          "type": "color",
+          "select": { "texel": { "sat": [0, 0.12], "lum": [0.45, 1] } },
+          "options": [
+            { "id": "original", "label": "Gri deschis" },
+            { "id": "antracit", "label": "Antracit", "color": "#3d3f42" },
+            { "id": "bleumarin", "label": "Bleumarin", "color": "#2d3d5c" },
+            { "id": "oliv", "label": "Verde oliv", "color": "#6b6f45" },
+            { "id": "mustar", "label": "Muștar", "color": "#c99a2e" },
+            { "id": "roz", "label": "Roz pudră", "color": "#d6a79e" }
+          ]
+        },
+        {
+          "id": "picioare",
+          "label": "Lemn picioare",
+          "type": "wood",
+          "select": { "texel": { "sat": [0.2, 1], "lum": [0.3, 1] } },
+          "original": "Fag natur",
+          "options": ["original", "nuc", "wenge"]
+        }
+      ]
+    },
+    {
+      "slug": "scaun-sezlong",
+      "name": "Scaun șezlong Sinaia",
+      "category": "scaune",
+      "price": 899,
+      "summary": "Scaun lounge cu cadru din lemn de nuc și pernă tapițată, cu spătar înclinat.",
+      "description": "Spătarul ușor înclinat și cotierele din lemn masiv te invită să stai mai mult, cu o carte sau o cafea. Perna tapițată se poate comanda în mai multe culori, iar cadrul din nuc, finisat cu ulei, devine tot mai frumos cu timpul.",
+      "materials": ["Lemn masiv de nuc", "Țesătură de tapițerie", "Spumă cu memorie"],
+      "model": { "source": "scaun-sezlong.glb", "unitScale": 0.01 },
+      "parts": [
+        {
+          "id": "perna",
+          "label": "Tapițerie",
+          "type": "color",
+          "select": { "texel": { "lum": [0.35, 1] } },
+          "options": [
+            { "id": "original", "label": "Galben muștar" },
+            { "id": "bleumarin", "label": "Bleumarin", "color": "#2d3d5c" },
+            { "id": "smarald", "label": "Verde smarald", "color": "#2e5e4e" },
+            { "id": "gri", "label": "Gri", "color": "#8c8b88" },
+            { "id": "teracota", "label": "Teracotă", "color": "#b8654a" },
+            { "id": "bej", "label": "Bej", "color": "#d8c6a8" }
+          ]
+        },
+        {
+          "id": "cadru",
+          "label": "Lemn cadru",
+          "type": "wood",
+          "select": { "texel": { "lum": [0, 0.35] } },
+          "original": "Nuc",
+          "options": ["original", "stejar", "wenge"]
+        }
+      ]
+    },
+    {
+      "slug": "masuta-3-picioare",
+      "name": "Masă rotundă Iași",
+      "category": "mese",
+      "price": 990,
+      "summary": "Masă rotundă de 90 cm, cu blat din stejar și trei picioare metalice subțiri.",
+      "description": "Masă rotundă pentru patru persoane, potrivită în bucătărie, în sufragerie sau pe terasa închisă. Blatul din stejar are muchii rotunjite, iar cele trei picioare metalice, ușor înclinate, îi dau stabilitate fără să încarce vizual încăperea.",
+      "materials": ["Blat din stejar", "Oțel vopsit în câmp electrostatic"],
+      "model": { "source": "masuta-3-picioare.glb", "unitScale": 0.01 },
+      "parts": [
+        {
+          "id": "blat",
+          "label": "Blat",
+          "type": "wood",
+          "select": { "texel": { "sat": [0.2, 1] } },
+          "original": "Stejar natur",
+          "options": ["original", "nuc", "wenge", "alb"]
+        },
+        {
+          "id": "picioare",
+          "label": "Picioare",
+          "type": "metal",
+          "select": { "texel": { "sat": [0, 0.2] } },
+          "original": "Negru mat",
+          "options": ["original", "crom", "auriu", "alb"]
+        }
+      ]
+    },
+    {
+      "slug": "birou-calculator",
+      "name": "Birou Cluj",
+      "category": "birouri",
+      "price": 1490,
+      "summary": "Birou de 145 cm, cu blat din stejar și două corpuri cu rafturi deschise.",
+      "description": "Un birou generos, gândit pentru lucrul de acasă: blatul din stejar are loc pentru monitor și laptop, iar cele două corpuri cu rafturi deschise țin la îndemână dosarele și accesoriile. Corpurile vopsite mat se pot comanda în mai multe culori și stau pe roți ascunse.",
+      "materials": ["Blat din stejar", "MDF vopsit mat", "Roți cu frână"],
+      "model": {
+        "source": "birou-calculator.glb",
+        "unitScale": 0.01,
+        "materials": { "table_AGAMA": { "alphaMode": "MASK", "alphaCutoff": 0.5 } }
+      },
+      "parts": [
+        {
+          "id": "blat",
+          "label": "Blat",
+          "type": "wood",
+          "select": { "texel": { "sat": [0.25, 1] } },
+          "original": "Stejar natur",
+          "options": ["original", "nuc", "wenge", "alb"]
+        },
+        {
+          "id": "corp",
+          "label": "Culoare corpuri",
+          "type": "color",
+          "select": { "texel": { "lum": [0, 0.3], "sat": [0, 0.25] }, "y": [0.06, 10] },
+          "metalness": 0,
+          "roughness": 0.55,
+          "detail": 0.5,
+          "options": [
+            { "id": "original", "label": "Negru" },
+            { "id": "alb", "label": "Alb", "color": "#ebe8e2" },
+            { "id": "grafit", "label": "Gri grafit", "color": "#55585b" },
+            { "id": "salvie", "label": "Verde salvie", "color": "#8d9b84" },
+            { "id": "petrol", "label": "Albastru petrol", "color": "#2f5361" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mini-canapea",
+      "name": "Canapea Constanța",
+      "category": "canapele",
+      "price": 2490,
+      "summary": "Canapea de două locuri, capitonată, din piele ecologică, pe picioare metalice.",
+      "description": "O canapea compactă, cu spătar capitonat cu nasturi și brațe rotunjite, care încape ușor și într-un apartament de bloc. Tapițeria din piele ecologică se curăță simplu cu o lavetă umedă, iar picioarele metalice lăcuite o fac să pară mai ușoară decât este.",
+      "materials": ["Piele ecologică", "Spumă cu densitate mare", "Picioare metalice lăcuite"],
+      "model": {
+        "source": "mini-canapea.glb",
+        "materials": {
+          "minisofaefni": { "metalness": 0 },
+          "minisofahnappar": { "metalness": 0 }
+        }
+      },
+      "parts": [
+        {
+          "id": "tapiterie",
+          "label": "Tapițerie",
+          "type": "color",
+          "select": { "materials": ["minisofaefni", "minisofahnappar"] },
+          "options": [
+            { "id": "original", "label": "Roșu rubin" },
+            { "id": "bleumarin", "label": "Bleumarin", "color": "#2c3e5c" },
+            { "id": "smarald", "label": "Verde smarald", "color": "#1f5c4a" },
+            { "id": "coniac", "label": "Coniac", "color": "#94562a" },
+            { "id": "negru", "label": "Negru", "color": "#242424" },
+            { "id": "perla", "label": "Gri perlă", "color": "#a7a6a2" },
+            { "id": "bej", "label": "Bej", "color": "#d6c3a5" }
+          ]
+        },
+        {
+          "id": "picioare",
+          "label": "Picioare",
+          "type": "metal",
+          "select": { "materials": ["minisofafeet"] },
+          "original": "Negru lucios",
+          "options": ["original", "crom", "auriu"]
+        }
+      ]
+    },
+    {
+      "slug": "biblioteca",
+      "name": "Bibliotecă Sibiu",
+      "category": "depozitare",
+      "price": 1290,
+      "summary": "Bibliotecă înaltă, cu cinci rafturi, din lemn masiv cu finisaj natural.",
+      "description": "Bibliotecă clasică, cu cinci niveluri deschise pentru cărți, albume și obiecte decorative. Structura din lemn masiv, îmbinată tradițional, rămâne stabilă ani la rând, iar finisajul cu ulei pune în valoare fibra lemnului. Alege nuanța care se potrivește camerei tale.",
+      "materials": ["Lemn masiv", "Finisaj cu ulei natural"],
+      "model": {
+        "source": "biblioteca.glb",
+        "materials": { "hillur": { "metalness": 0 } }
+      },
+      "parts": [
+        {
+          "id": "lemn",
+          "label": "Finisaj lemn",
+          "type": "wood",
+          "select": { "materials": ["hillur"] },
+          "original": "Cireș",
+          "options": ["original", "stejar", "nuc", "wenge", "alb"]
+        }
+      ]
+    },
+    {
+      "slug": "dulap",
+      "name": "Dulap cu rafturi Brașov",
+      "category": "depozitare",
+      "price": 3290,
+      "summary": "Dulap din lemn cu rafturi deschise, uși și sertare, pe picioare conice.",
+      "description": "Piesa centrală a unei sufragerii: rafturile deschise de sus expun cărțile și decorațiunile, iar ușile și sertarele de jos ascund tot ce nu vrei la vedere. Picioarele conice și linia curbată a bazei îi dau un aer mid-century, potrivit atât în casele noi, cât și în cele vechi.",
+      "materials": ["Lemn masiv", "Furnir de nuc", "Feronerie metalică"],
+      "model": {
+        "source": "dulap.glb",
+        "materials": { "bokahilla1": { "metalness": 0 } }
+      },
+      "parts": [
+        {
+          "id": "lemn",
+          "label": "Finisaj lemn",
+          "type": "wood",
+          "select": { "materials": ["bokahilla1"] },
+          "original": "Nuc",
+          "options": ["original", "stejar", "wenge", "alb"]
+        }
+      ]
+    },
+    {
+      "slug": "mini-biblioteca",
+      "name": "Mini-bibliotecă Timișoara",
+      "category": "depozitare",
+      "price": 790,
+      "summary": "Bibliotecă joasă, de 142 cm, cu nișe deschise, care merge folosită și drept comodă TV.",
+      "description": "Rafturile asimetrice și nișele deschise o fac utilă oriunde: sub fereastră, pentru cărți și plante, sau în living, ca suport pentru televizor și console. Cantul subliniază liniile simple, iar picioarele conice o ridică de la podea, ca să faci curat ușor.",
+      "materials": ["PAL melaminat cu aspect de lemn", "Cant ABS", "Picioare din lemn masiv"],
+      "model": {
+        "source": "mini-biblioteca.glb",
+        "materials": { "tvstand2": { "metalness": 0 } }
+      },
+      "parts": [
+        {
+          "id": "lemn",
+          "label": "Finisaj lemn",
+          "type": "wood",
+          "select": { "materials": ["tvstand1", "tvstand2", "tvstand4"] },
+          "original": "Nuc închis",
+          "options": ["original", "stejar", "wenge", "alb"]
+        },
+        {
+          "id": "cant",
+          "label": "Culoare cant",
+          "type": "color",
+          "select": { "materials": ["tvstand3", "tvstand5"] },
+          "options": [
+            { "id": "original", "label": "Negru" },
+            { "id": "alb", "label": "Alb", "color": "#eeece7" },
+            { "id": "grafit", "label": "Gri grafit", "color": "#55585b" }
+          ]
+        }
+      ]
+    }
+  ]
+}

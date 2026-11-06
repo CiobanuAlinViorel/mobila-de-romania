@@ -1,0 +1,692 @@
+{
+  "version": 1,
+  "tiers": {
+    "high": {
+      "maxTextureSize": 1024,
+      "textures": "PNG/JPEG originale",
+      "geometry": "float32, fără compresie"
+    },
+    "medium": {
+      "maxTextureSize": 2048,
+      "textures": "WebP: culori q92, hărți de date near-lossless",
+      "geometry": "meshopt"
+    },
+    "low": {
+      "maxTextureSize": 512,
+      "textures": "WebP: culori q85, hărți de date near-lossless",
+      "geometry": "meshopt, simplificată ~40%"
+    }
+  },
+  "models": {
+    "scaun-modern-alb": {
+      "dimensions": {
+        "width": 46.7,
+        "height": 81,
+        "depth": 50.3
+      },
+      "files": {
+        "high": {
+          "path": "models/high/scaun-modern-alb.8a92d96c29.glb",
+          "bytes": 1852820,
+          "triangles": 17192
+        },
+        "medium": {
+          "path": "models/medium/scaun-modern-alb.57a2c7dcef.glb",
+          "bytes": 777052,
+          "triangles": 17192
+        },
+        "low": {
+          "path": "models/low/scaun-modern-alb.191e4f8ab2.glb",
+          "bytes": 290996,
+          "triangles": 12194
+        }
+      },
+      "parts": {
+        "sezut": {
+          "type": "color",
+          "swatch": [
+            "#a7a7a7"
+          ],
+          "triangles": 5032
+        },
+        "picioare": {
+          "type": "wood",
+          "swatch": [
+            "#967557",
+            "#a17d5c"
+          ],
+          "triangles": 1408,
+          "textures": {
+            "nuc": {
+              "high": {
+                "mdr-picioare-0": "models/high/scaun-modern-alb/picioare-0-nuc.81dc5cd747.jpg"
+              },
+              "medium": {
+                "mdr-picioare-0": "models/medium/scaun-modern-alb/picioare-0-nuc.1e3437d228.webp"
+              },
+              "low": {
+                "mdr-picioare-0": "models/low/scaun-modern-alb/picioare-0-nuc.a3774bc8ea.webp"
+              }
+            },
+            "wenge": {
+              "high": {
+                "mdr-picioare-0": "models/high/scaun-modern-alb/picioare-0-wenge.7d6631b27d.jpg"
+              },
+              "medium": {
+                "mdr-picioare-0": "models/medium/scaun-modern-alb/picioare-0-wenge.f73aaa5ee3.webp"
+              },
+              "low": {
+                "mdr-picioare-0": "models/low/scaun-modern-alb/picioare-0-wenge.a02f082d58.webp"
+              }
+            }
+          }
+        }
+      }
+    },
+    "scaun-modern-negru": {
+      "dimensions": {
+        "width": 50.8,
+        "height": 82.7,
+        "depth": 57.6
+      },
+      "files": {
+        "high": {
+          "path": "models/high/scaun-modern-negru.033082ad89.glb",
+          "bytes": 2703436,
+          "triangles": 13164
+        },
+        "medium": {
+          "path": "models/medium/scaun-modern-negru.45edd46fe5.glb",
+          "bytes": 1206296,
+          "triangles": 13164
+        },
+        "low": {
+          "path": "models/low/scaun-modern-negru.831ad3c591.glb",
+          "bytes": 309968,
+          "triangles": 9399
+        }
+      },
+      "parts": {
+        "tapiterie": {
+          "type": "color",
+          "swatch": [
+            "#1d1d1d"
+          ],
+          "triangles": 2764
+        },
+        "cadru": {
+          "type": "metal",
+          "swatch": [
+            "#3c3c3c"
+          ],
+          "triangles": 9408
+        }
+      }
+    },
+    "scaun-fara-spatar": {
+      "dimensions": {
+        "width": 50.2,
+        "height": 81,
+        "depth": 47.1
+      },
+      "files": {
+        "high": {
+          "path": "models/high/scaun-fara-spatar.d3c70d3931.glb",
+          "bytes": 3108632,
+          "triangles": 13076
+        },
+        "medium": {
+          "path": "models/medium/scaun-fara-spatar.b9d97284a7.glb",
+          "bytes": 1271272,
+          "triangles": 13076
+        },
+        "low": {
+          "path": "models/low/scaun-fara-spatar.7a24198e85.glb",
+          "bytes": 285492,
+          "triangles": 7946
+        }
+      },
+      "parts": {
+        "perna": {
+          "type": "color",
+          "swatch": [
+            "#a6a6a6"
+          ],
+          "triangles": 8356
+        },
+        "picioare": {
+          "type": "wood",
+          "swatch": [
+            "#c49368",
+            "#cfa071"
+          ],
+          "triangles": 256,
+          "textures": {
+            "nuc": {
+              "high": {
+                "mdr-picioare-0": "models/high/scaun-fara-spatar/picioare-0-nuc.8de4bfb475.jpg"
+              },
+              "medium": {
+                "mdr-picioare-0": "models/medium/scaun-fara-spatar/picioare-0-nuc.d092049187.webp"
+              },
+              "low": {
+                "mdr-picioare-0": "models/low/scaun-fara-spatar/picioare-0-nuc.31a3126b02.webp"
+              }
+            },
+            "wenge": {
+              "high": {
+                "mdr-picioare-0": "models/high/scaun-fara-spatar/picioare-0-wenge.e315e4323a.jpg"
+              },
+              "medium": {
+                "mdr-picioare-0": "models/medium/scaun-fara-spatar/picioare-0-wenge.2554324716.webp"
+              },
+              "low": {
+                "mdr-picioare-0": "models/low/scaun-fara-spatar/picioare-0-wenge.aa217962e9.webp"
+              }
+            }
+          }
+        }
+      }
+    },
+    "scaun-sezlong": {
+      "dimensions": {
+        "width": 50.3,
+        "height": 86,
+        "depth": 57.1
+      },
+      "files": {
+        "high": {
+          "path": "models/high/scaun-sezlong.55c70b60e6.glb",
+          "bytes": 3268692,
+          "triangles": 6360
+        },
+        "medium": {
+          "path": "models/medium/scaun-sezlong.4809b1f2db.glb",
+          "bytes": 1344804,
+          "triangles": 6360
+        },
+        "low": {
+          "path": "models/low/scaun-sezlong.e74df95059.glb",
+          "bytes": 323368,
+          "triangles": 6360
+        }
+      },
+      "parts": {
+        "perna": {
+          "type": "color",
+          "swatch": [
+            "#cda348"
+          ],
+          "triangles": 2928
+        },
+        "cadru": {
+          "type": "wood",
+          "swatch": [
+            "#37241a",
+            "#402a1d"
+          ],
+          "triangles": 3432,
+          "textures": {
+            "stejar": {
+              "high": {
+                "mdr-cadru-0": "models/high/scaun-sezlong/cadru-0-stejar.59f4d34f6f.jpg"
+              },
+              "medium": {
+                "mdr-cadru-0": "models/medium/scaun-sezlong/cadru-0-stejar.397932589d.webp"
+              },
+              "low": {
+                "mdr-cadru-0": "models/low/scaun-sezlong/cadru-0-stejar.debbc88573.webp"
+              }
+            },
+            "wenge": {
+              "high": {
+                "mdr-cadru-0": "models/high/scaun-sezlong/cadru-0-wenge.651b0f29b6.jpg"
+              },
+              "medium": {
+                "mdr-cadru-0": "models/medium/scaun-sezlong/cadru-0-wenge.c8aa6e0a09.webp"
+              },
+              "low": {
+                "mdr-cadru-0": "models/low/scaun-sezlong/cadru-0-wenge.91e7972ded.webp"
+              }
+            }
+          }
+        }
+      }
+    },
+    "masuta-3-picioare": {
+      "dimensions": {
+        "width": 89.9,
+        "height": 77.3,
+        "depth": 89.9
+      },
+      "files": {
+        "high": {
+          "path": "models/high/masuta-3-picioare.9cba875817.glb",
+          "bytes": 1420028,
+          "triangles": 1942
+        },
+        "medium": {
+          "path": "models/medium/masuta-3-picioare.972657dc4e.glb",
+          "bytes": 628388,
+          "triangles": 1942
+        },
+        "low": {
+          "path": "models/low/masuta-3-picioare.9c1bb3bc25.glb",
+          "bytes": 179280,
+          "triangles": 1942
+        }
+      },
+      "parts": {
+        "blat": {
+          "type": "wood",
+          "swatch": [
+            "#8f674a",
+            "#937052"
+          ],
+          "triangles": 572,
+          "textures": {
+            "nuc": {
+              "high": {
+                "mdr-blat-0": "models/high/masuta-3-picioare/blat-0-nuc.aaf3efab2b.jpg"
+              },
+              "medium": {
+                "mdr-blat-0": "models/medium/masuta-3-picioare/blat-0-nuc.8046b929a0.webp"
+              },
+              "low": {
+                "mdr-blat-0": "models/low/masuta-3-picioare/blat-0-nuc.8fd36bcf4d.webp"
+              }
+            },
+            "wenge": {
+              "high": {
+                "mdr-blat-0": "models/high/masuta-3-picioare/blat-0-wenge.c979d61e95.jpg"
+              },
+              "medium": {
+                "mdr-blat-0": "models/medium/masuta-3-picioare/blat-0-wenge.a53cbd430d.webp"
+              },
+              "low": {
+                "mdr-blat-0": "models/low/masuta-3-picioare/blat-0-wenge.81a573b05f.webp"
+              }
+            },
+            "alb": {
+              "high": {
+                "mdr-blat-0": "models/high/masuta-3-picioare/blat-0-alb.c04e0559ec.jpg"
+              },
+              "medium": {
+                "mdr-blat-0": "models/medium/masuta-3-picioare/blat-0-alb.e3a3a495ae.webp"
+              },
+              "low": {
+                "mdr-blat-0": "models/low/masuta-3-picioare/blat-0-alb.31cee60272.webp"
+              }
+            }
+          }
+        },
+        "picioare": {
+          "type": "metal",
+          "swatch": [
+            "#3e3e3e"
+          ],
+          "triangles": 1370
+        }
+      }
+    },
+    "birou-calculator": {
+      "dimensions": {
+        "width": 145.2,
+        "height": 76.9,
+        "depth": 57.5
+      },
+      "files": {
+        "high": {
+          "path": "models/high/birou-calculator.55de3db841.glb",
+          "bytes": 1790668,
+          "triangles": 6972
+        },
+        "medium": {
+          "path": "models/medium/birou-calculator.1a139fe87d.glb",
+          "bytes": 679004,
+          "triangles": 6972
+        },
+        "low": {
+          "path": "models/low/birou-calculator.7fa4878441.glb",
+          "bytes": 222832,
+          "triangles": 5354
+        }
+      },
+      "parts": {
+        "blat": {
+          "type": "wood",
+          "swatch": [
+            "#bf9067",
+            "#c99d71"
+          ],
+          "triangles": 328,
+          "textures": {
+            "nuc": {
+              "high": {
+                "mdr-blat-0": "models/high/birou-calculator/blat-0-nuc.bda2ebde91.png"
+              },
+              "medium": {
+                "mdr-blat-0": "models/medium/birou-calculator/blat-0-nuc.7518f2d742.webp"
+              },
+              "low": {
+                "mdr-blat-0": "models/low/birou-calculator/blat-0-nuc.a901b321d9.webp"
+              }
+            },
+            "wenge": {
+              "high": {
+                "mdr-blat-0": "models/high/birou-calculator/blat-0-wenge.1ae3ac7dc4.png"
+              },
+              "medium": {
+                "mdr-blat-0": "models/medium/birou-calculator/blat-0-wenge.8b4c684f05.webp"
+              },
+              "low": {
+                "mdr-blat-0": "models/low/birou-calculator/blat-0-wenge.5fd58684fe.webp"
+              }
+            },
+            "alb": {
+              "high": {
+                "mdr-blat-0": "models/high/birou-calculator/blat-0-alb.b77bba0e63.png"
+              },
+              "medium": {
+                "mdr-blat-0": "models/medium/birou-calculator/blat-0-alb.d810ee211c.webp"
+              },
+              "low": {
+                "mdr-blat-0": "models/low/birou-calculator/blat-0-alb.af2fd2937e.webp"
+              }
+            }
+          }
+        },
+        "corp": {
+          "type": "color",
+          "swatch": [
+            "#272727"
+          ],
+          "triangles": 2600
+        }
+      }
+    },
+    "mini-canapea": {
+      "dimensions": {
+        "width": 120.6,
+        "height": 78.3,
+        "depth": 66.3
+      },
+      "files": {
+        "high": {
+          "path": "models/high/mini-canapea.84cab4a5f2.glb",
+          "bytes": 4844072,
+          "triangles": 27160
+        },
+        "medium": {
+          "path": "models/medium/mini-canapea.df7c2d2279.glb",
+          "bytes": 2265948,
+          "triangles": 27160
+        },
+        "low": {
+          "path": "models/low/mini-canapea.be7917a584.glb",
+          "bytes": 686712,
+          "triangles": 17512
+        }
+      },
+      "parts": {
+        "tapiterie": {
+          "type": "color",
+          "swatch": [
+            "#952020"
+          ],
+          "triangles": 18656
+        },
+        "picioare": {
+          "type": "metal",
+          "swatch": [
+            "#000000"
+          ],
+          "triangles": 8504
+        }
+      }
+    },
+    "biblioteca": {
+      "dimensions": {
+        "width": 89.4,
+        "height": 198.1,
+        "depth": 35.2
+      },
+      "files": {
+        "high": {
+          "path": "models/high/biblioteca.949b4819d8.glb",
+          "bytes": 583264,
+          "triangles": 252
+        },
+        "medium": {
+          "path": "models/medium/biblioteca.36c572960c.glb",
+          "bytes": 260704,
+          "triangles": 252
+        },
+        "low": {
+          "path": "models/low/biblioteca.21ca51d5aa.glb",
+          "bytes": 70020,
+          "triangles": 252
+        }
+      },
+      "parts": {
+        "lemn": {
+          "type": "wood",
+          "swatch": [
+            "#632f1a",
+            "#703b22"
+          ],
+          "triangles": 252,
+          "textures": {
+            "stejar": {
+              "high": {
+                "mdr-lemn-0": "models/high/biblioteca/lemn-0-stejar.df47fc11f3.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/biblioteca/lemn-0-stejar.fa0d421558.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/biblioteca/lemn-0-stejar.65ff55dad7.webp"
+              }
+            },
+            "nuc": {
+              "high": {
+                "mdr-lemn-0": "models/high/biblioteca/lemn-0-nuc.325dd6fd24.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/biblioteca/lemn-0-nuc.e436fa27e7.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/biblioteca/lemn-0-nuc.4ec99c8a7a.webp"
+              }
+            },
+            "wenge": {
+              "high": {
+                "mdr-lemn-0": "models/high/biblioteca/lemn-0-wenge.5e3bc2a95d.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/biblioteca/lemn-0-wenge.5daf1abfaf.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/biblioteca/lemn-0-wenge.d94fae3a5f.webp"
+              }
+            },
+            "alb": {
+              "high": {
+                "mdr-lemn-0": "models/high/biblioteca/lemn-0-alb.9dd42c0863.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/biblioteca/lemn-0-alb.ac9f7b6720.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/biblioteca/lemn-0-alb.db2a234f24.webp"
+              }
+            }
+          }
+        }
+      }
+    },
+    "dulap": {
+      "dimensions": {
+        "width": 170.8,
+        "height": 197.3,
+        "depth": 52.9
+      },
+      "files": {
+        "high": {
+          "path": "models/high/dulap.595a56f012.glb",
+          "bytes": 1280344,
+          "triangles": 2038
+        },
+        "medium": {
+          "path": "models/medium/dulap.fc167cb972.glb",
+          "bytes": 591408,
+          "triangles": 2038
+        },
+        "low": {
+          "path": "models/low/dulap.e7c5679e70.glb",
+          "bytes": 170776,
+          "triangles": 2038
+        }
+      },
+      "parts": {
+        "lemn": {
+          "type": "wood",
+          "swatch": [
+            "#602e1a",
+            "#6e3c24"
+          ],
+          "triangles": 2038,
+          "textures": {
+            "stejar": {
+              "high": {
+                "mdr-lemn-0": "models/high/dulap/lemn-0-stejar.a02cffe926.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/dulap/lemn-0-stejar.1bea6abc3d.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/dulap/lemn-0-stejar.eba1ab19b7.webp"
+              }
+            },
+            "wenge": {
+              "high": {
+                "mdr-lemn-0": "models/high/dulap/lemn-0-wenge.9d7899d807.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/dulap/lemn-0-wenge.a6e4422e7a.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/dulap/lemn-0-wenge.1e5796c8ce.webp"
+              }
+            },
+            "alb": {
+              "high": {
+                "mdr-lemn-0": "models/high/dulap/lemn-0-alb.a71cd2d26b.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/dulap/lemn-0-alb.8d51219344.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/dulap/lemn-0-alb.6bd0bf1056.webp"
+              }
+            }
+          }
+        }
+      }
+    },
+    "mini-biblioteca": {
+      "dimensions": {
+        "width": 141.7,
+        "height": 61,
+        "depth": 37.2
+      },
+      "files": {
+        "high": {
+          "path": "models/high/mini-biblioteca.6e917156db.glb",
+          "bytes": 773944,
+          "triangles": 660
+        },
+        "medium": {
+          "path": "models/medium/mini-biblioteca.7c99ba9b29.glb",
+          "bytes": 250916,
+          "triangles": 660
+        },
+        "low": {
+          "path": "models/low/mini-biblioteca.aab541c01a.glb",
+          "bytes": 75148,
+          "triangles": 660
+        }
+      },
+      "parts": {
+        "lemn": {
+          "type": "wood",
+          "swatch": [
+            "#38231a",
+            "#452f25"
+          ],
+          "triangles": 554,
+          "textures": {
+            "stejar": {
+              "high": {
+                "mdr-lemn-0": "models/high/mini-biblioteca/lemn-0-stejar.af0af38bbd.jpg",
+                "mdr-lemn-1": "models/high/mini-biblioteca/lemn-1-stejar.8149e64010.jpg",
+                "mdr-lemn-2": "models/high/mini-biblioteca/lemn-2-stejar.2165f1eb76.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/mini-biblioteca/lemn-0-stejar.0225315e1d.webp",
+                "mdr-lemn-1": "models/medium/mini-biblioteca/lemn-1-stejar.f180cd8b97.webp",
+                "mdr-lemn-2": "models/medium/mini-biblioteca/lemn-2-stejar.501d9a8d53.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/mini-biblioteca/lemn-0-stejar.b71e9c6757.webp",
+                "mdr-lemn-1": "models/low/mini-biblioteca/lemn-1-stejar.7902dfd818.webp",
+                "mdr-lemn-2": "models/low/mini-biblioteca/lemn-2-stejar.1db0164984.webp"
+              }
+            },
+            "wenge": {
+              "high": {
+                "mdr-lemn-0": "models/high/mini-biblioteca/lemn-0-wenge.d16e49ca69.jpg",
+                "mdr-lemn-1": "models/high/mini-biblioteca/lemn-1-wenge.8b1ca01f5c.jpg",
+                "mdr-lemn-2": "models/high/mini-biblioteca/lemn-2-wenge.3cbb682ea2.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/mini-biblioteca/lemn-0-wenge.1d53df520e.webp",
+                "mdr-lemn-1": "models/medium/mini-biblioteca/lemn-1-wenge.793e4f4900.webp",
+                "mdr-lemn-2": "models/medium/mini-biblioteca/lemn-2-wenge.ed4b14d459.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/mini-biblioteca/lemn-0-wenge.1a26d96a3c.webp",
+                "mdr-lemn-1": "models/low/mini-biblioteca/lemn-1-wenge.e46aeeba3e.webp",
+                "mdr-lemn-2": "models/low/mini-biblioteca/lemn-2-wenge.e339b59190.webp"
+              }
+            },
+            "alb": {
+              "high": {
+                "mdr-lemn-0": "models/high/mini-biblioteca/lemn-0-alb.0a6bc1721c.jpg",
+                "mdr-lemn-1": "models/high/mini-biblioteca/lemn-1-alb.35893a7fe0.jpg",
+                "mdr-lemn-2": "models/high/mini-biblioteca/lemn-2-alb.d35d7453ed.jpg"
+              },
+              "medium": {
+                "mdr-lemn-0": "models/medium/mini-biblioteca/lemn-0-alb.09ef286f63.webp",
+                "mdr-lemn-1": "models/medium/mini-biblioteca/lemn-1-alb.ecfd03d7b6.webp",
+                "mdr-lemn-2": "models/medium/mini-biblioteca/lemn-2-alb.ab3478f29e.webp"
+              },
+              "low": {
+                "mdr-lemn-0": "models/low/mini-biblioteca/lemn-0-alb.1fbe2dc40e.webp",
+                "mdr-lemn-1": "models/low/mini-biblioteca/lemn-1-alb.e77ab1fca1.webp",
+                "mdr-lemn-2": "models/low/mini-biblioteca/lemn-2-alb.7a9eaae0cd.webp"
+              }
+            }
+          }
+        },
+        "cant": {
+          "type": "color",
+          "swatch": [
+            "#000000"
+          ],
+          "triangles": 84
+        }
+      }
+    }
+  }
+}

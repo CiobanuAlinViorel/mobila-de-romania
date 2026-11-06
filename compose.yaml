@@ -1,0 +1,11 @@
+# docker compose up -d --build   ->   http://localhost:8080
+services:
+  web:
+    build: .
+    image: mobila-de-romania:latest
+    ports:
+      - "8080:80"
+    environment:
+      MDR_MODEL_TIER: auto
+      # MDR_ASSETS_BASE_URL: https://cdn.example.com/mobila/
+    restart: unless-stopped
